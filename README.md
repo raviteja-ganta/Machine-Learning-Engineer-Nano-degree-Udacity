@@ -24,4 +24,17 @@ This repo contains all the projects files which are implemented as part of Machi
   7) Deploy the trained model
   8) Evaluate the model
   
-* [Deploying a Sentiment Analysis model](https://github.com/raviteja-ganta/Machine-Learning-Engineer-Nano-degree-Udacity/tree/master/Sentiment%20Analysis)
+* [Deploying a Sentiment Analysis model](https://github.com/raviteja-ganta/Machine-Learning-Engineer-Nano-degree-Udacity/tree/master/Sentiment%20Analysis) - Goal is to create a simple web page which a user can use to enter a moview review. The web page will then send the review off to our deployed model which will predict the sentiment of the entered review.
+
+  Main steps involved are:
+  1) Pre-process the data
+  2) Upload the processed data to S3
+  3) Build and train the PyTorch model using Amazon sagemaker
+  4) Test the trained model
+  5) Deploy the trained model for web app
+  6) Use the deployed model for web app
+     1) Setting up a Lambda function
+     2) Setting up API Gateway
+  7) Deploying web app
+
+
